@@ -1,0 +1,1991 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://example.org/projet"
+         xmlns="http://example.org/projet#">
+
+<owl:Ontology rdf:about="http://example.org/projet"/>
+
+<owl:ObjectProperty rdf:about="#at_require">
+  <rdfs:domain rdf:resource="#approach"/>
+  <rdfs:range rdf:resource="#type"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#ae_provide">
+  <rdfs:domain rdf:resource="#analysis_process"/>
+  <rdfs:range rdf:resource="#estimate"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#ta_illustrate">
+  <rdfs:domain rdf:resource="#table"/>
+  <rdfs:range rdf:resource="#approach"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#dr_prioritize">
+  <rdfs:domain rdf:resource="#data"/>
+  <rdfs:range rdf:resource="#risk"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#re_analyze">
+  <rdfs:domain rdf:resource="#risk"/>
+  <rdfs:range rdf:resource="#effect"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#em_give">
+  <rdfs:domain rdf:resource="#example"/>
+  <rdfs:range rdf:resource="#mean"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#pi_provide">
+  <rdfs:domain rdf:resource="#project_charter"/>
+  <rdfs:domain rdf:resource="#project_team"/>
+  <rdfs:range rdf:resource="#input"/>
+  <rdfs:range rdf:resource="#information"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#pp_include">
+  <rdfs:domain rdf:resource="#project_risk_management"/>
+  <rdfs:range rdf:resource="#process"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#rp_affect">
+  <rdfs:domain rdf:resource="#risk"/>
+  <rdfs:range rdf:resource="#project"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#pr_play">
+  <rdfs:domain rdf:resource="#project_risk_management"/>
+  <rdfs:range rdf:resource="#role"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#mv_deliver">
+  <rdfs:domain rdf:resource="#management_plan"/>
+  <rdfs:range rdf:resource="#value"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#od_use">
+  <rdfs:domain rdf:resource="#objective"/>
+  <rdfs:range rdf:resource="#deþ_nations"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#dc_objectivesdefined">
+  <rdfs:domain rdf:resource="#definition"/>
+  <rdfs:range rdf:resource="#condition"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#iq_cost">
+  <rdfs:domain rdf:resource="#information"/>
+  <rdfs:range rdf:resource="#quality"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#cm_provide">
+  <rdfs:domain rdf:resource="#chapter"/>
+  <rdfs:range rdf:resource="#mean"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#ae_expect">
+  <rdfs:domain rdf:resource="#action"/>
+  <rdfs:range rdf:resource="#effect"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#pm_describe">
+  <rdfs:domain rdf:resource="#plan"/>
+  <rdfs:range rdf:resource="#management_process"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#rp_take">
+  <rdfs:domain rdf:resource="#risk_management"/>
+  <rdfs:range rdf:resource="#place"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#ro_affect">
+  <rdfs:domain rdf:resource="#risk"/>
+  <rdfs:range rdf:resource="#objective"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#pm_take">
+  <rdfs:domain rdf:resource="#plan"/>
+  <rdfs:range rdf:resource="#management_plan"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#ip_include">
+  <rdfs:domain rdf:resource="#indicator"/>
+  <rdfs:range rdf:resource="#probability"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#ss_include">
+  <rdfs:domain rdf:resource="#strategy"/>
+  <rdfs:range rdf:resource="#strategy"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#rl_require">
+  <rdfs:domain rdf:resource="#risk_management"/>
+  <rdfs:range rdf:resource="#level"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#re_expect">
+  <rdfs:domain rdf:resource="#response"/>
+  <rdfs:range rdf:resource="#effect"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#pf_form">
+  <rdfs:domain rdf:resource="#practice_standard"/>
+  <rdfs:range rdf:resource="#framework"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#mp_begin">
+  <rdfs:domain rdf:resource="#management_process"/>
+  <rdfs:range rdf:resource="#project"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#mg_provide">
+  <rdfs:domain rdf:resource="#management_plan"/>
+  <rdfs:range rdf:resource="#guideline"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#pi_progress">
+  <rdfs:domain rdf:resource="#project"/>
+  <rdfs:range rdf:resource="#information"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#pi_require">
+  <rdfs:domain rdf:resource="#project_risk_management"/>
+  <rdfs:range rdf:resource="#input"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#ee_provide">
+  <rdfs:domain rdf:resource="#evaluation"/>
+  <rdfs:range rdf:resource="#estimate"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#ev_expect">
+  <rdfs:domain rdf:resource="#example"/>
+  <rdfs:range rdf:resource="#value_analysis"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#pt_conceptualise">
+  <rdfs:domain rdf:resource="#plan_risk_management"/>
+  <rdfs:range rdf:resource="#technique"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#lr_include">
+  <rdfs:domain rdf:resource="#list"/>
+  <rdfs:range rdf:resource="#risk"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#rd_include">
+  <rdfs:domain rdf:resource="#representation"/>
+  <rdfs:range rdf:resource="#data"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#pa_provide">
+  <rdfs:domain rdf:resource="#project_risk_management"/>
+  <rdfs:range rdf:resource="#approach"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#pl_warrant">
+  <rdfs:domain rdf:resource="#project"/>
+  <rdfs:range rdf:resource="#level"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#pi_include">
+  <rdfs:domain rdf:resource="#practice_standard"/>
+  <rdfs:range rdf:resource="#information"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#rb_provide">
+  <rdfs:domain rdf:resource="#risk_management"/>
+  <rdfs:range rdf:resource="#basis"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#rc_have">
+  <rdfs:domain rdf:resource="#risk"/>
+  <rdfs:range rdf:resource="#cause"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#er_monitor">
+  <rdfs:domain rdf:resource="#ed_risk"/>
+  <rdfs:range rdf:resource="#risk"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#mp_provide">
+  <rdfs:domain rdf:resource="#management_plan"/>
+  <rdfs:range rdf:resource="#process"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#pc_relate">
+  <rdfs:domain rdf:resource="#process"/>
+  <rdfs:range rdf:resource="#criterion"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#rs_translate">
+  <rdfs:domain rdf:resource="#response"/>
+  <rdfs:range rdf:resource="#strategy"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#sv_maximize">
+  <rdfs:domain rdf:resource="#success_factor"/>
+  <rdfs:range rdf:resource="#value"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#ic_improve">
+  <rdfs:domain rdf:resource="#information"/>
+  <rdfs:range rdf:resource="#communication"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#ra_drive">
+  <rdfs:domain rdf:resource="#risk"/>
+  <rdfs:range rdf:resource="#analysis_process"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#wp_perform">
+  <rdfs:domain rdf:resource="#who"/>
+  <rdfs:range rdf:resource="#process"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#pe_represent">
+  <rdfs:domain rdf:resource="#project_risk"/>
+  <rdfs:range rdf:resource="#effect"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#tb_include">
+  <rdfs:domain rdf:resource="#type"/>
+  <rdfs:range rdf:resource="#bias"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#pr_cover">
+  <rdfs:domain rdf:resource="#practice_standard"/>
+  <rdfs:range rdf:resource="#risk"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#pp_involve">
+  <rdfs:domain rdf:resource="#process"/>
+  <rdfs:range rdf:resource="#project_team"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#te_take">
+  <rdfs:domain rdf:resource="#technique"/>
+  <rdfs:range rdf:resource="#effect"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#lp_take">
+  <rdfs:domain rdf:resource="#level"/>
+  <rdfs:range rdf:resource="#project"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#ce_provide">
+  <rdfs:domain rdf:resource="#chapter"/>
+  <rdfs:range rdf:resource="#estimate"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#ri_occur">
+  <rdfs:domain rdf:resource="#risk"/>
+  <rdfs:range rdf:resource="#information"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#mp_describe">
+  <rdfs:domain rdf:resource="#management_plan"/>
+  <rdfs:range rdf:resource="#part"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#ar_generate">
+  <rdfs:domain rdf:resource="#activity"/>
+  <rdfs:range rdf:resource="#risk"/>
+</owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:about="#ds_include">
+  <rdfs:domain rdf:resource="#data"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#is_see">
+  <rdfs:domain rdf:resource="#information"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#es_include">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  <rdfs:domain rdf:resource="#ed"/>
+  <rdfs:domain rdf:resource="#event"/>
+  <rdfs:domain rdf:resource="#element"/>
+  <rdfs:domain rdf:resource="#example"/>
+  <rdfs:range rdf:resource="#sensitivity_analysis"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#ps_represent">
+  <rdfs:domain rdf:resource="#probability_distribution"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#os_use">
+  <rdfs:domain rdf:resource="#output"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#as_affect">
+  <rdfs:domain rdf:resource="#assumption"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#rs_provide">
+  <rdfs:domain rdf:resource="#result"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#rs_use">
+  <rdfs:domain rdf:resource="#risk"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#rs_present">
+  <rdfs:domain rdf:resource="#risk"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#os_include">
+  <rdfs:domain rdf:resource="#outcome"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#rs_require">
+  <rdfs:domain rdf:resource="#risk_management"/>
+  <rdfs:domain rdf:resource="#risk"/>
+  <rdfs:domain rdf:resource="#risk_response"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#as_combine">
+  <rdfs:domain rdf:resource="#address"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#rs_identify">
+  <rdfs:domain rdf:resource="#risk"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#rs_include">
+  <rdfs:domain rdf:resource="#risk"/>
+  <rdfs:domain rdf:resource="#result"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#us_take">
+  <rdfs:domain rdf:resource="#use"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#us_ensure">
+  <rdfs:domain rdf:resource="#use"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#ns_represent">
+  <rdfs:domain rdf:resource="#number"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#ps_provide">
+  <rdfs:domain rdf:resource="#project_management_plan"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#as_involve">
+  <rdfs:domain rdf:resource="#assumption"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#ws_have">
+  <rdfs:domain rdf:resource="#who"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#ps_serve">
+  <rdfs:domain rdf:resource="#plan"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#as_examines">
+  <rdfs:domain rdf:resource="#analysis"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#ps_have">
+  <rdfs:domain rdf:resource="#practice_standard"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#ps_generate">
+  <rdfs:domain rdf:resource="#process"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#us_include">
+  <rdfs:domain rdf:resource="#update"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#ls_convey">
+  <rdfs:domain rdf:resource="#list"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#cs_warrant">
+  <rdfs:domain rdf:resource="#condition"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#is_represent">
+  <rdfs:domain rdf:resource="#input"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#rs_involve">
+  <rdfs:domain rdf:resource="#risk_transference"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#rs_reknect">
+  <rdfs:domain rdf:resource="#risk_response"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#ps_bring">
+  <rdfs:domain rdf:resource="#process"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#rs_offer">
+  <rdfs:domain rdf:resource="#risk"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#ps_ensure">
+  <rdfs:domain rdf:resource="#project"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#rs_species">
+  <rdfs:domain rdf:resource="#response"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#es_combine">
+  <rdfs:domain rdf:resource="#en_agencies"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#ps_deþ">
+  <rdfs:domain rdf:resource="#practice_standard"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#rs_register">
+  <rdfs:domain rdf:resource="#risk"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#as_reduce">
+  <rdfs:domain rdf:resource="#action"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#ls_ensure">
+  <rdfs:domain rdf:resource="#list"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#is_include">
+  <rdfs:domain rdf:resource="#information"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#cs_include">
+  <rdfs:domain rdf:resource="#cause"/>
+  <rdfs:domain rdf:resource="#category"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#ps_performs">
+  <rdfs:domain rdf:resource="#project_team"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#rs_have">
+  <rdfs:domain rdf:resource="#role"/>
+  <rdfs:domain rdf:resource="#risk"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#ps_improve">
+  <rdfs:domain rdf:resource="#project_document"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#ss_give">
+  <rdfs:domain rdf:resource="#support"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#ss_identifies">
+  <rdfs:domain rdf:resource="#swot_analysis"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#ns_establish">
+  <rdfs:domain rdf:resource="#number"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#ps_assume">
+  <rdfs:domain rdf:resource="#process"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#ms_provide">
+  <rdfs:domain rdf:resource="#management_plan"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#ps_use">
+  <rdfs:domain rdf:resource="#project"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#ps_require">
+  <rdfs:domain rdf:resource="#project"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#rs_pose">
+  <rdfs:domain rdf:resource="#risk"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#rs_perform">
+  <rdfs:domain rdf:resource="#risk"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#rs_predict">
+  <rdfs:domain rdf:resource="#review"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#ds_indicate">
+  <rdfs:domain rdf:resource="#deviation"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#cs_have">
+  <rdfs:domain rdf:resource="#category"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#is_help">
+  <rdfs:domain rdf:resource="#information"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:Class rdf:about="#date"/>
+
+<owl:Class rdf:about="#data">
+  <rdfs:subClassOf rdf:resource="#impact_effectiveness"/>
+</owl:Class>
+
+<owl:Class rdf:about="#cardinal"/>
+
+<owl:Class rdf:about="#information">
+  <rdfs:subClassOf rdf:resource="#share"/>
+  <rdfs:subClassOf rdf:resource="#store"/>
+  <rdfs:subClassOf rdf:resource="#report"/>
+</owl:Class>
+
+<owl:Class rdf:about="#type">
+  <rdfs:subClassOf rdf:resource="#call_threat"/>
+</owl:Class>
+
+<owl:Class rdf:about="#approach">
+  <rdfs:subClassOf rdf:resource="#use"/>
+</owl:Class>
+
+<owl:Class rdf:about="#variance_and_trend_analysis">
+  <rdfs:subClassOf rdf:resource="#control_risks_tools_and_techniques"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Variance and Trend Analysis Many control processes employ variance analysis to compare the planned results to the actual results. For the purposes of controlling risks, trends in the project™s execution should be reviewed using performance information. Earned value analysis and other methods of project variance and trend analysis may be used for monitoring overall project performance. Outcomes from these analyses may forecast potential deviation of the project at completion from cost and schedule targets. Deviation from the baseline plan may indicate the potential impact of threats or opportunities. &amp;P6</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#control_risks_tools_and_techniques">
+  <rdfs:subClassOf rdf:resource="#control_risks"/>
+</owl:Class>
+
+<owl:Class rdf:about="#objective"/>
+
+<owl:Class rdf:about="#sensitivity_analysis"/>
+
+<owl:Class rdf:about="#ed"/>
+
+<owl:Class rdf:about="#event"/>
+
+<owl:Class rdf:about="#element">
+  <rdfs:subClassOf rdf:resource="#consideredprovides"/>
+  <rdfs:subClassOf rdf:resource="#response_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#example">
+  <rdfs:subClassOf rdf:resource="#case"/>
+  <rdfs:subClassOf rdf:resource="#show_example"/>
+  <rdfs:subClassOf rdf:resource="#probability_distribution"/>
+  <rdfs:subClassOf rdf:resource="#use_permit_combination"/>
+  <rdfs:subClassOf rdf:resource="#method"/>
+  <rdfs:subClassOf rdf:resource="#application"/>
+  <rdfs:subClassOf rdf:resource="#sensitivity_analysis"/>
+  <rdfs:subClassOf rdf:resource="#show"/>
+</owl:Class>
+
+<owl:Class rdf:about="#probability_distribution"/>
+
+<owl:Class rdf:about="#output">
+  <rdfs:subClassOf rdf:resource="#summarize"/>
+</owl:Class>
+
+<owl:Class rdf:about="#scope_baseline">
+  <rdfs:subClassOf rdf:resource="#perform_qualitative__risk_analysis_inputs"/>
+  <rdfs:subClassOf rdf:resource="#identify_risks_inputs"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scope Baseline Described in Section 5.4.3.1. Project assumptions are found in the project scope statement. Uncertainty in project assumptions should be evaluated as potential causes of project risk.The W BS is a critical input to identifying risks as it facilitates an understanding of the potential risks at both the micro and macro levels. Risks can be identified and subsequently tracked at summary, control account, and/or work package levels. &amp;P2</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scope Baseline Described in Section 5.4.3.1. Projects of a common or recurrent type tend to have more well-understood risks. Projects using state-of-the-art or first-of-its-kind technology, and highly complex projects, tend to have more uncertainty. This can be evaluated by examining the scope baseline.330©2013 Project Management Institute. &amp;P3</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#perform_qualitative__risk_analysis_inputs">
+  <rdfs:subClassOf rdf:resource="#perform_qualitative__risk_analysis"/>
+</owl:Class>
+
+<owl:Class rdf:about="#identify_risks_inputs">
+  <rdfs:subClassOf rdf:resource="#identify_risks"/>
+</owl:Class>
+
+<owl:Class rdf:about="#rating_rule">
+  <rdfs:subClassOf rdf:resource="#tailor"/>
+</owl:Class>
+
+<owl:Class rdf:about="#tailor"/>
+
+<owl:Class rdf:about="#relate_lesson">
+  <rdfs:subClassOf rdf:resource="#review"/>
+</owl:Class>
+
+<owl:Class rdf:about="#review"/>
+
+<owl:Class rdf:about="#estimate"/>
+
+<owl:Class rdf:about="#analysis_process">
+  <rdfs:subClassOf rdf:resource="#base"/>
+</owl:Class>
+
+<owl:Class rdf:about="#assumption">
+  <rdfs:subClassOf rdf:resource="#factor"/>
+</owl:Class>
+
+<owl:Class rdf:about="#gpe"/>
+
+<owl:Class rdf:about="#table">
+  <rdfs:subClassOf rdf:resource="#example"/>
+</owl:Class>
+
+<owl:Class rdf:about="#checklist">
+  <rdfs:subClassOf rdf:resource="#item"/>
+  <rdfs:subClassOf rdf:resource="#review"/>
+</owl:Class>
+
+<owl:Class rdf:about="#item"/>
+
+<owl:Class rdf:about="#result">
+  <rdfs:subClassOf rdf:resource="#weight"/>
+  <rdfs:subClassOf rdf:resource="#document"/>
+  <rdfs:subClassOf rdf:resource="#indication"/>
+  <rdfs:subClassOf rdf:resource="#probability"/>
+</owl:Class>
+
+<owl:Class rdf:about="#activity_duration_estimates">
+  <rdfs:subClassOf rdf:resource="#identify_risks_inputs"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activity Duration Estimates Described in Section 6.5.3.1. Activity duration estimate reviews are useful in identifying risks related to the time allowances for the activities or project as a whole, again with the width of the range of such estimates indicating the relative degree(s) of risk. &amp;P2</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#quality_management_plan">
+  <rdfs:subClassOf rdf:resource="#identify_risks_inputs"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quality Management Plan Described in Section 8.1.3.1. The quality management plan provides a baseline of quality measures and metrics for use in identifying risks.322©2013 Project Management Institute. &amp;P2</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#risk">
+  <rdfs:subClassOf rdf:resource="#require"/>
+  <rdfs:subClassOf rdf:resource="#review"/>
+  <rdfs:subClassOf rdf:resource="#ed"/>
+  <rdfs:subClassOf rdf:resource="#ed_deþ_ne_element"/>
+  <rdfs:subClassOf rdf:resource="#accord"/>
+  <rdfs:subClassOf rdf:resource="#regard"/>
+  <rdfs:subClassOf rdf:resource="#handle"/>
+  <rdfs:subClassOf rdf:resource="#species_c_event"/>
+  <rdfs:subClassOf rdf:resource="#outcome_approach"/>
+  <rdfs:subClassOf rdf:resource="#analyze_document"/>
+  <rdfs:subClassOf rdf:resource="#assess"/>
+  <rdfs:subClassOf rdf:resource="#score"/>
+  <rdfs:subClassOf rdf:resource="#þ"/>
+  <rdfs:subClassOf rdf:resource="#address"/>
+  <rdfs:subClassOf rdf:resource="#focus"/>
+  <rdfs:subClassOf rdf:resource="#place"/>
+  <rdfs:subClassOf rdf:resource="#assess_accord"/>
+</owl:Class>
+
+<owl:Class rdf:about="#effect">
+  <rdfs:subClassOf rdf:resource="#event"/>
+</owl:Class>
+
+<owl:Class rdf:about="#risk_probability_and_impact_assessment">
+  <rdfs:subClassOf rdf:resource="#perform_qualitative__risk_analysis_tools_and_techniques"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Risk Probability and Impact Assessment Risk probability assessment investigates the likelihood that each specific risk will occur. Risk impact assessment investigates the potential effect on a project objective such as schedule, cost, quality, or performance, including both negative effects for threats and positive effects for opportunities.Probability and impact are assessed for each identified risk. Risks can be assessed in interviews or meetings with participants selected for their familiarity with the risk categories on the agenda. Project team members and knowledgeable persons external to the project are included.The level of probability for each risk and its impact on each objective is evaluated during the interview or meeting. Explanatory detail, including assumptions justifying the levels assigned, are also recorded. Risk probabilities and impacts are rated according to the definitions given in the risk management plan. Risks with low ratings of probability and impact will be included within the risk register as part of the watch list for future monitoring.331©2013 Project Management Institute. 11 &amp;P3</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#perform_qualitative__risk_analysis_tools_and_techniques">
+  <rdfs:subClassOf rdf:resource="#perform_qualitative__risk_analysis"/>
+</owl:Class>
+
+<owl:Class rdf:about="#mean"/>
+
+<owl:Class rdf:about="#factor"/>
+
+<owl:Class rdf:about="#input">
+  <rdfs:subClassOf rdf:resource="#tailor"/>
+</owl:Class>
+
+<owl:Class rdf:about="#project_charter">
+  <rdfs:subClassOf rdf:resource="#plan_risk_management_inputs"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Project Charter Described in Section 4.1.3.1. The project charter can provide various inputs such as high-level risks, high-level project descriptions, and high-level requirements. &amp;P1</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#project_team"/>
+
+<owl:Class rdf:about="#document_rationale">
+  <rdfs:subClassOf rdf:resource="#component"/>
+</owl:Class>
+
+<owl:Class rdf:about="#component"/>
+
+<owl:Class rdf:about="#process">
+  <rdfs:subClassOf rdf:resource="#use"/>
+</owl:Class>
+
+<owl:Class rdf:about="#project_risk_management">
+  <rdfs:subClassOf rdf:resource="#knowledge_area"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Project Risk Management includes the processes of conducting risk management planning, identification, analysis, response planning, and controlling risk on a project. The objectives of project risk management are to increase the likelihood and impact of positive events, and decrease the likelihood and impact of negative events in the project.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#outcome"/>
+
+<owl:Class rdf:about="#project">
+  <rdfs:subClassOf rdf:resource="#percent"/>
+  <rdfs:subClassOf rdf:resource="#plan"/>
+  <rdfs:subClassOf rdf:resource="#undertaking_base"/>
+</owl:Class>
+
+<owl:Class rdf:about="#role">
+  <rdfs:subClassOf rdf:resource="#activity"/>
+</owl:Class>
+
+<owl:Class rdf:about="#risk_management_plan">
+  <rdfs:subClassOf rdf:resource="#perform_quantitative__risk_analysis_inputs"/>
+  <rdfs:subClassOf rdf:resource="#plan_risk_management_outputs"/>
+  <rdfs:subClassOf rdf:resource="#identify_risks_inputs"/>
+  <rdfs:subClassOf rdf:resource="#perform_qualitative__risk_analysis_inputs"/>
+  <rdfs:subClassOf rdf:resource="#plan_risk_responses_inputs"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Risk Management Plan The risk management plan is a component of the project management plan and describes how risk management activities will be structured and performed. The risk management plan includes the following: Methodology. Defines the approaches, tools, and data sources that will be used to perform risk management on the project. Roles and responsibilities. &amp;P1</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Risk Management Plan Described in Section 11.1.3.1. Key elements of the risk management plan that contribute to the Identify Risks process are the assignments of roles and responsibilities, provision for risk management activities in the budget and schedule, and categories of risk, which are sometimes expressed as a risk breakdown structure (Figure 11-4). &amp;P2</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Risk Management Plan Described in Section 11.1.3.1. Key elements of the risk management plan used in the Perform Qualitative Risk Analysis process include roles and responsibilities for conducting risk management, budgets, schedule activities for risk management, risk categories, definitions of probability and impact, the probability and impact matrix, and revised stakeholders™ risk tolerances. These inputs are usually tailored to the project during the Plan Risk Management process. If they are not available, they may be developed during the Perform Qualitative Risk Analysis process. &amp;P3</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Risk Management Plan Described in Section 11.1.3.1. The risk management plan provides guidelines, methods, and tools to be used in quantitative risk analysis. &amp;P4</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Risk Management Plan Important components of the risk management plan include roles and responsibilities, risk analysis definitions, timing for reviews (and for eliminating risks from review), and risk thresholds for low, moderate, and high risks. Risk thresholds help identify those risks for which specific responses are needed. &amp;P5</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#perform_quantitative__risk_analysis_inputs">
+  <rdfs:subClassOf rdf:resource="#perform_quantitative__risk_analysis"/>
+</owl:Class>
+
+<owl:Class rdf:about="#plan_risk_management_outputs">
+  <rdfs:subClassOf rdf:resource="#plan_risk_management"/>
+</owl:Class>
+
+<owl:Class rdf:about="#plan_risk_responses_inputs">
+  <rdfs:subClassOf rdf:resource="#plan_risk_responses"/>
+</owl:Class>
+
+<owl:Class rdf:about="#project_planning_tool">
+  <rdfs:subClassOf rdf:resource="#use"/>
+</owl:Class>
+
+<owl:Class rdf:about="#use"/>
+
+<owl:Class rdf:about="#norp"/>
+
+<owl:Class rdf:about="#value"/>
+
+<owl:Class rdf:about="#management_plan">
+  <rdfs:subClassOf rdf:resource="#update"/>
+  <rdfs:subClassOf rdf:resource="#base"/>
+  <rdfs:subClassOf rdf:resource="#component"/>
+</owl:Class>
+
+<owl:Class rdf:about="#risk_management">
+  <rdfs:subClassOf rdf:resource="#agenda_item"/>
+  <rdfs:subClassOf rdf:resource="#conduct"/>
+  <rdfs:subClassOf rdf:resource="#practice"/>
+  <rdfs:subClassOf rdf:resource="#component"/>
+</owl:Class>
+
+<owl:Class rdf:about="#risk_response">
+  <rdfs:subClassOf rdf:resource="#use_approach"/>
+</owl:Class>
+
+<owl:Class rdf:about="#address"/>
+
+<owl:Class rdf:about="#data_gathering_and_representation_techniques">
+  <rdfs:subClassOf rdf:resource="#perform_quantitative__risk_analysis_tools_and_techniques"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Gathering and Representation Techniques Interviewing. Interviewing techniques draw on experience and historical data to quantify the probability and impact of risks on project objectives. The information needed depends upon the type of probability distributions that will be used. For instance, information would be gathered on the optimistic (low), pessimistic (high), and most likely scenarios for some commonly used distributions. Examples of three-point estimates for cost are shown in Figure 11-13. Additional information on three-point estimates appears in Estimate Activity Durations (Section 6.5) and Estimate Costs (Section 7.2). Documenting the rationale of the risk ranges and the assumptions behind them are important components of the risk interview because they can provide insight on the reliability and credibility of the analysis.Range of Project Cost Estimates W BS Element Design Build Test Total Project$4 M$16 M$11 M$31 M$6 M$20 M$15 M$41 M$10 M$35 M$23 M$68 MInterviewing relevant stakeholders helps determine the three-point estimates for each W BSelement for triangular, beta or other distributions. In this example, the likelihood of completingthe project at or below the most likely estimate of $41 million is relatively small as shown in the simulation results in Figure 11-17 (Cost Risk Simulation Results).Low Most Likely High Figure 11-13. Range of Project Cost Estimates Collected During the Risk Interview337©2013 Project Management Institute. 11 Probability distributions. Continuous probability distributions, which are used extensively in modeling and simulation, represent the uncertainty in values such as durations of schedule activities and costs of project components. Discrete distributions can be used to represent uncertain events, such as the outcome of a test or a possible scenario in a decision tree. Two examples of widely used continuous distributions are shown in Figure 11-14. These distributions depict shapes that are compatible with the data typically developed during the quantitative risk analysis. Uniform distributions can be used if there is no obvious value that is more likely than any other between specified high and low bounds, such as in the early concept stage of design.Beta and triangular distributions are frequently used in quantitative risk analysis. The data shown in the figure on the left (Beta Distribution) is one example of a family of such distributions determined by two "shape parameters". Other commonly used distributions include the uniform, normal and lognormal. In these charts the horizontal (X) axes represent possible values of time or cost and the vertical (Y) axes represent relative likelihood. Beta Distribution Triangular Distribution0.10.00.10.0 Figure 11-14. Examples of Commonly Used Probability Distributions338©2013 Project Management Institute. &amp;P4</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#perform_quantitative__risk_analysis_tools_and_techniques">
+  <rdfs:subClassOf rdf:resource="#perform_quantitative__risk_analysis"/>
+</owl:Class>
+
+<owl:Class rdf:about="#deþ_nations">
+  <rdfs:subClassOf rdf:resource="#tailor"/>
+  <rdfs:subClassOf rdf:resource="#use"/>
+</owl:Class>
+
+<owl:Class rdf:about="#project_result"/>
+
+<owl:Class rdf:about="#diagramming_techniques">
+  <rdfs:subClassOf rdf:resource="#identify_risks_tools_and_techniques"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagramming Techniques Risk diagramming techniques may include: Cause and effect diagrams. These are also known as Ishikawa or fishbone diagrams and are useful for identifying causes of risks. System or process flow charts. These show how various elements of a system interrelate and the mechanism of causation. Influence diagrams. These are graphical representations of situations showing causal influences, time ordering of events, and other relationships among variables and outcomes, as shown in Figure 11-7.326©2013 Project Management Institute. Project Activity Project Estimates Deliverables Risk Condition Figure 11-7. Influence Diagram &amp;P2</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#identify_risks_tools_and_techniques">
+  <rdfs:subClassOf rdf:resource="#identify_risks"/>
+</owl:Class>
+
+<owl:Class rdf:about="#change_requests">
+  <rdfs:subClassOf rdf:resource="#control_risks_outputs"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Change Requests Implementing contingency plans or workarounds sometimes results in a change request. Change requests are prepared and submitted to the Perform Integrated Change Control process (Section 4.5). Change requests can include recommended corrective and preventive actions as well. Recommended corrective actions. &amp;P6</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#control_risks_outputs">
+  <rdfs:subClassOf rdf:resource="#control_risks"/>
+</owl:Class>
+
+<owl:Class rdf:about="#condition">
+  <rdfs:subClassOf rdf:resource="#monitor"/>
+  <rdfs:subClassOf rdf:resource="#shade"/>
+  <rdfs:subClassOf rdf:resource="#ed"/>
+</owl:Class>
+
+<owl:Class rdf:about="#definition">
+  <rdfs:subClassOf rdf:resource="#tailor"/>
+</owl:Class>
+
+<owl:Class rdf:about="#reserve_analysis">
+  <rdfs:subClassOf rdf:resource="#control_risks_tools_and_techniques"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reserve Analysis Throughout execution of the project, some risks may occur with positive or negative impacts on budget or schedule contingency reserves. Reserve analysis compares the amount of the contingency reserves remaining to the amount of risk remaining at any time in the project in order to determine if the remaining reserve is adequate. &amp;P6</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#quality">
+  <rdfs:subClassOf rdf:resource="#indicator"/>
+</owl:Class>
+
+<owl:Class rdf:about="#logo">
+  <rdfs:subClassOf rdf:resource="#register"/>
+</owl:Class>
+
+<owl:Class rdf:about="#register"/>
+
+<owl:Class rdf:about="#project_work">
+  <rdfs:subClassOf rdf:resource="#monitor"/>
+</owl:Class>
+
+<owl:Class rdf:about="#monitor"/>
+
+<owl:Class rdf:about="#work_performance_data">
+  <rdfs:subClassOf rdf:resource="#control_risks_inputs"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Work Performance Data Described in Section 4.3.3.2. Work performance data related to various performance results possibly impacted by risks includes, but is not limited to:Deliverable status,Schedule progress, and Costs incurred. &amp;P6</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#control_risks_inputs">
+  <rdfs:subClassOf rdf:resource="#control_risks"/>
+</owl:Class>
+
+<owl:Class rdf:about="#chapter">
+  <rdfs:subClassOf rdf:resource="#basis"/>
+</owl:Class>
+
+<owl:Class rdf:about="#edition_òproject_risk">
+  <rdfs:subClassOf rdf:resource="#event"/>
+</owl:Class>
+
+<owl:Class rdf:about="#creativity_techniques">
+  <rdfs:subClassOf rdf:resource="#use"/>
+</owl:Class>
+
+<owl:Class rdf:about="#number">
+  <rdfs:subClassOf rdf:resource="#identþ_cation"/>
+</owl:Class>
+
+<owl:Class rdf:about="#project_management_plan">
+  <rdfs:subClassOf rdf:resource="#control_risks_inputs"/>
+  <rdfs:subClassOf rdf:resource="#plan_risk_management_inputs"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Project Management Plan In planning risk management, all approved subsidiary management plans and baselines should be taken into consideration in order to make the risk management plan consistent with them. The risk management plan is also a component of the project management plan. The project management plan provides baseline or current state of risk-affected areas including scope, schedule, and cost. &amp;P1</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Project Management Plan Described in Section 4.2.3.1. The project management plan, which includes the risk management plan, provides guidance for risk monitoring and controlling. &amp;P6</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#loc"/>
+
+<owl:Class rdf:about="#who">
+  <rdfs:subClassOf rdf:resource="#part"/>
+</owl:Class>
+
+<owl:Class rdf:about="#tree_analysis">
+  <rdfs:subClassOf rdf:resource="#use"/>
+</owl:Class>
+
+<owl:Class rdf:about="#plan"/>
+
+<owl:Class rdf:about="#analysis">
+  <rdfs:subClassOf rdf:resource="#technique_use"/>
+</owl:Class>
+
+<owl:Class rdf:about="#action">
+  <rdfs:subClassOf rdf:resource="#delegate"/>
+</owl:Class>
+
+<owl:Class rdf:about="#stakeholder_tolerance">
+  <rdfs:subClassOf rdf:resource="#revise"/>
+</owl:Class>
+
+<owl:Class rdf:about="#revise"/>
+
+<owl:Class rdf:about="#expert_tool">
+  <rdfs:subClassOf rdf:resource="#data"/>
+</owl:Class>
+
+<owl:Class rdf:about="#technical_performance_measurement">
+  <rdfs:subClassOf rdf:resource="#control_risks_tools_and_techniques"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Technical Performance Measurement Technical performance measurement compares technical accomplishments during project execution to the schedule of technical achievement. It requires the definition of objective, quantifiable measures of technical performance, which can be used to compare actual results against targets. Such technical performance measures may include weight, transaction times, number of delivered defects, storage capacity, etc. Deviation, such as demonstrating more or less functionality than planned at a milestone, can help to forecast the degree of success in achieving the project™s scope. &amp;P6</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#strategies_for_positive_risks_or_opportunities">
+  <rdfs:subClassOf rdf:resource="#plan_risk_responses_tools_and_techniques"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strategies for Positive Risks or Opportunities Three of the four responses are suggested to deal with risks with potentially positive impacts on project objectives. The fourth strategy, accept, can be used for negative risks or threats as well as positive risks or opportunities. These strategies, described below, are to exploit, share, enhance, and accept. Exploit. The exploit strategy may be selected for risks with positive impacts where the organization wishes to ensure that the opportunity is realized. This strategy seeks to eliminate the uncertainty associated with a particular upside risk by ensuring the opportunity definitely happens. Examples of directly exploiting responses include assigning an organization™s most talented resources to the project to reduce the time to completion or using new technologies or technology upgrades to reduce cost and duration required to realize project objectives.346©2013 Project Management Institute.  Enhance. The enhance strategy is used to increase the probability and/or the positive impacts of an opportunity. Identifying and maximizing key drivers of these positive-impact risks may increase the probability of their occurrence. Examples of enhancing opportunities include adding more resources to an activity to finish early. Share. Sharing a positive risk involves allocating some or all of the ownership of the opportunity to a third party who is best able to capture the opportunity for the benefit of the project. Examples of sharing actions include forming risk-sharing partnerships, teams, special-purpose companies, or joint ventures, which can be established with the express purpose of taking advantage of the opportunity so that all parties gain from their actions. Accept. Accepting an opportunity is being willing to take advantage of the opportunity if it arises, but not actively pursuing it. &amp;P5</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#plan_risk_responses_tools_and_techniques">
+  <rdfs:subClassOf rdf:resource="#plan_risk_responses"/>
+</owl:Class>
+
+<owl:Class rdf:about="#practice_standard">
+  <rdfs:subClassOf rdf:resource="#conduct"/>
+  <rdfs:subClassOf rdf:resource="#objective"/>
+  <rdfs:subClassOf rdf:resource="#target"/>
+  <rdfs:subClassOf rdf:resource="#event"/>
+</owl:Class>
+
+<owl:Class rdf:about="#enterprise_environmental_factors">
+  <rdfs:subClassOf rdf:resource="#plan_risk_management_inputs"/>
+  <rdfs:subClassOf rdf:resource="#perform_quantitative__risk_analysis_inputs"/>
+  <rdfs:subClassOf rdf:resource="#perform_qualitative__risk_analysis_inputs"/>
+  <rdfs:subClassOf rdf:resource="#identify_risks_inputs"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enterprise Environmental Factors Described in Section 2.1.5. The enterprise environmental factors that can influence the Plan Risk Management process include, but are not limited to, risk attitudes, thresholds, and tolerances that describe the degree of risk that an organization will withstand. &amp;P1</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enterprise Environmental Factors Described in Section 2.1.5. Enterprise environmental factors that can influence the Identify Risks process include, but are not limited to:Published information, including commercial databases,Academic studies,Published checklists,Benchmarking,Industry studies, and Risk attitudes.324©2013 Project Management Institute. &amp;P2</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enterprise Environmental Factors Described in Section 2.1.5. Enterprise environmental factors may provide insight and context to the risk assessment, such as:Industry studies of similar projects by risk specialists, and Risk databases that may be available from industry or proprietary sources. &amp;P3</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enterprise Environmental Factors Described in Section 2.1.5. Enterprise environmental factors may provide insight and context to the risk analysis, such as:Industry studies of similar projects by risk specialists, and Risk databases that may be available from industry or proprietary sources.336©2013 Project Management Institute. &amp;P4</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#plan_risk_management_inputs">
+  <rdfs:subClassOf rdf:resource="#plan_risk_management"/>
+</owl:Class>
+
+<owl:Class rdf:about="#example_force">
+  <rdfs:subClassOf rdf:resource="#show"/>
+</owl:Class>
+
+<owl:Class rdf:about="#show">
+  <rdfs:subClassOf rdf:resource="#use"/>
+</owl:Class>
+
+<owl:Class rdf:about="#update"/>
+
+<owl:Class rdf:about="#analysis_formula">
+  <rdfs:subClassOf rdf:resource="#use"/>
+</owl:Class>
+
+<owl:Class rdf:about="#template">
+  <rdfs:subClassOf rdf:resource="#tailor"/>
+</owl:Class>
+
+<owl:Class rdf:about="#goal">
+  <rdfs:subClassOf rdf:resource="#learn"/>
+</owl:Class>
+
+<owl:Class rdf:about="#learn"/>
+
+<owl:Class rdf:about="#expert_judgment">
+  <rdfs:subClassOf rdf:resource="#perform_quantitative__risk_analysis_tools_and_techniques"/>
+  <rdfs:subClassOf rdf:resource="#perform_qualitative__risk_analysis_tools_and_techniques"/>
+  <rdfs:subClassOf rdf:resource="#identify_risks_tools_and_techniques"/>
+  <rdfs:subClassOf rdf:resource="#plan_risk_responses_tools_and_techniques"/>
+  <rdfs:subClassOf rdf:resource="#plan_risk_management_tools_and_techniques"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Expert Judgment To ensure a comprehensive establishment of the risk management plan, judgment, and expertise should be considered from groups or individuals with specialized training or knowledge on the subject area, such as:Senior management,Project stakeholders,Project managers who have worked on projects in the same area (directly or through lessons learned),Subject matter experts (S MEs) in business or project area,Industry groups and consultants, and Professional and technical associations.316©2013 Project Management Institute. &amp;P1</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Expert Judgment Risks may be identified directly by experts with relevant experience with similar projects or business areas. Such experts should be identified by the project manager and invited to consider all aspects of the project and suggest possible risks based on their previous experience and areas of expertise. The experts™ bias should be taken into account in this process. &amp;P2</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Expert Judgment Expert judgment is required to assess the probability and impact of each risk to determine its location in the matrix shown in Figure 11-10. Experts generally are those having experience with similar, recent projects. Gathering expert judgment is often accomplished with the use of risk facilitation workshops or interviews. The experts™ bias should be taken into account in this process. &amp;P3</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Expert Judgment Expert judgment (ideally using experts with relevant, recent experience) is required to identify potential cost and schedule impacts, to evaluate probability, and to define inputs such as probability distributions into the tools.Expert judgment also comes into play in the interpretation of the data. Experts should be able to identify the weaknesses of the tools as well as their strengths. Experts may determine when a specific tool may or may not be more appropriate given the organization™s capabilities and culture. &amp;P4</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Expert Judgment Expert judgment is input from knowledgeable parties pertaining to the actions to be taken on a specific and defined risk. Expertise may be provided by any group or person with specialized education, knowledge, skill, experience, or training in establishing risk responses. &amp;P5</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#plan_risk_management_tools_and_techniques">
+  <rdfs:subClassOf rdf:resource="#plan_risk_management"/>
+</owl:Class>
+
+<owl:Class rdf:about="#list"/>
+
+<owl:Class rdf:about="#describe_herein">
+  <rdfs:subClassOf rdf:resource="#use"/>
+</owl:Class>
+
+<owl:Class rdf:about="#ordinal"/>
+
+<owl:Class rdf:about="#management_process">
+  <rdfs:subClassOf rdf:resource="#support"/>
+</owl:Class>
+
+<owl:Class rdf:about="#place"/>
+
+<owl:Class rdf:about="#risk_transference">
+  <rdfs:subClassOf rdf:resource="#shift_impact"/>
+</owl:Class>
+
+<owl:Class rdf:about="#stakeholder_register">
+  <rdfs:subClassOf rdf:resource="#identify_risks_inputs"/>
+  <rdfs:subClassOf rdf:resource="#plan_risk_management_inputs"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stakeholder Register Described in Section 13.1.3.1. The stakeholder register, which contains all details related to the project™s stakeholders, provides an overview of their roles. &amp;P1</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stakeholder Register Described in Section 13.1.3.1. Information about the stakeholders is useful for soliciting inputs to identify risks, as this will ensure that key stakeholders, especially the stakeholder, sponsor, and customer are interviewed or otherwise participate during the Identify Risks process.323©2013 Project Management Institute. 11 &amp;P2</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#risk_acceptance">
+  <rdfs:subClassOf rdf:resource="#project_team"/>
+</owl:Class>
+
+<owl:Class rdf:about="#quantitative_risk_analysis_and_modeling_techniques">
+  <rdfs:subClassOf rdf:resource="#perform_quantitative__risk_analysis_tools_and_techniques"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quantitative Risk Analysis and Modeling Techniques Commonly used techniques use both event-oriented and project-oriented analysis approaches, including: Sensitivity analysis. Sensitivity analysis helps to determine which risks have the most potential impact on the project. It helps to understand how the variations in project™s objectives correlate with variations in different uncertainties. Conversely, it examines the extent to which the uncertainty of each project element affects the objective being studied when all other uncertain elements are held at their baseline values. One typical display of sensitivity analysis is the tornado diagram (Figure 11-15), which is useful for comparing relative importance and impact of variables that have a high degree of uncertainty to those that are more stable. The Tornado diagram is also helpful in analyzing risk-taking scenarios enabled on specific risks whose quantitative analysis highlights possible benefits greater than corresponding identified negative impacts. A tornado diagram is a special type of bar chart used in sensitivity analysis for comparing the relative importance of the variables. In a tornado diagram, the Y-axis contains each type of uncertainty at base values, and the X-axis contains the spread or correlation of the uncertainty to the studied output. In this figure, each uncertainty contains a horizontal bar and is ordered vertically to show uncertainties with a decreasing spread from the base values.Risk 1 Risk 2 Risk 3 Risk 4 Risk 5 Risk 6 Negative Impact Positive Impact KE Y-15,000     -10,000      -5,000            0            5,000      10,000      15,000      20,000 Figure 11-15. Example of Tornado Diagram339©2013 Project Management Institute. 11 Expected monetary value analysis. Expected monetary value (E MV) analysis is a statistical concept that calculates the average outcome when the future includes scenarios that may or may not happen (i.e., analysis under uncertainty). The E MV of opportunities are generally expressed as positive values, while those of threats are expressed as negative values. E MV requires a risk-neutral assumptionŠneither risk averse nor risk seeking. E MV for a project is calculated by multiplying the value of each possible outcome by its probability of occurrence and adding the products together. A common use of this type of analysis is a decision tree analysis (Figure 11-16).Computed: Payoffs minus Costs along Path Decision Definition Decision Node Chance Node Net Path Value Decision to be Made Input: Cost of Each Decision Output: Decision Made Input: Scenario Probability, Reward if it Occurs Output: Expected Monetary Value (E MV) Build or Upgrade?$80 M60%40%60%40%-$30 M$36 M = .60 ($80 M) +             .40 (Œ$30 M)E MV (before costs) of Build New Plant considering demand  $46 M = .60 ($70 M) +             .40 ($10 M)E MV (before costs) of Upgrade Plant considering demand  Decision E MV = $46 M(the larger of $36 M and $46 M)$80 M = $200 M Œ $120 MŒ$30 M = $90 M Œ $120 M$70 M = $120 M Œ $50 M$10 M = $60 M Œ $50 M$70 M$10 MNote 1: The decision tree shows how to make a decision between alternative capital strategies (represented as ﬁdecision   nodesﬂ) when the environment contains uncertain elements (represented as ﬁchance nodesﬂ).Note 2: Here, a decision is being made whether to invest $120 M U S to build a new plant or to instead invest only $50 M U S to upgrade the existing plant. For each decision, the demand (which is uncertain, and therefore represents a ﬁchance nodeﬂ) must be accounted for. For example, strong demand leads to $200 M revenue with the new plant but only $120 M U S for the upgraded plant, perhaps due to capacity limitations of the upgraded plant. The end of each branch shows the net effect of the payoffs minus costs. For each decision branch, all effects are added (see shaded areas) to determine the overall Expected Monetary Value (E MV) of the decision. Remember to account for the investment costs. From the calculations in the shaded areas, the upgraded plant has a higher E MV of $46 M Œ  also the E MV of the overall decision. (This choice also represents the lowest risk, avoiding the worst case possible   outcome of a loss of $30 M).Decision Node Chance Node End of Branch Strong Demand($200 M)Weak Demand($90 M)Strong Demand($120 M)Weak Demand($60 M)Build New Plant(Invest $120 M)Upgrade Plant(Invest $50 M)Figure 11-16. Decision Tree Diagram340©2013 Project Management Institute.  Modeling and simulation. A project simulation uses a model that translates the specified detailed uncertainties of the project into their potential impact on project objectives. Simulations are typically performed using the Monte Carlo technique. In a simulation, the project model is computed many times (iterated), with the input values (e.g., cost estimates or activity durations) chosen at random for each iteration from the probability distributions of these variables. A histogram (e.g., total cost or completion date) is calculated from the iterations. For a cost risk analysis, a simulation uses cost estimates. For a schedule risk analysis, the schedule network diagram and duration estimates are used. The output from a cost risk simulation using the three-element model and risk ranges is shown in Figure 11-17. It illustrates the respective probability of achieving specific cost targets. Similar curves can be developed for other project objectives.This cumulative distribution, assuming the data ranges in Figure 11-13 and triangular distributions, shows that the project is only 12 percent likely to meet the $41 million most likely cost estimate. If a conservative organization wants a 75% likelihood of success, a budget of $50 million (a contingency of nearly 22 % ($50 M - $41 M)/$41 M)) is required.Total Project Cost Cumulative Chart Cost100%75%50%25%0%Probability$30.00 M             $38.75 M            $47.50 M             $56.25 M            $65.00 M12%Mean = $46.67 M$41 M                 $50 MFigure 11-17. Cost Risk Simulation Results341©2013 Project Management Institute. 11 &amp;P4</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#rating">
+  <rdfs:subClassOf rdf:resource="#risk"/>
+</owl:Class>
+
+<owl:Class rdf:about="#probability"/>
+
+<owl:Class rdf:about="#indicator"/>
+
+<owl:Class rdf:about="#strategy">
+  <rdfs:subClassOf rdf:resource="#objective"/>
+</owl:Class>
+
+<owl:Class rdf:about="#risk_probability">
+  <rdfs:subClassOf rdf:resource="#rat_accord"/>
+</owl:Class>
+
+<owl:Class rdf:about="#rat_accord"/>
+
+<owl:Class rdf:about="#risk_audits">
+  <rdfs:subClassOf rdf:resource="#control_risks_tools_and_techniques"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Risk Audits Risk audits examine and document the effectiveness of risk responses in dealing with identified risks and their root causes, as well as the effectiveness of the risk management process. The project manager is responsible for ensuring that risk audits are performed at an appropriate frequency, as defined in the project™s risk management plan. Risk audits may be included during routine project review meetings, or the team may choose to hold separate risk audit meetings. The format for the audit and its objectives should be clearly defined before the audit is conducted.352©2013 Project Management Institute. &amp;P6</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#what">
+  <rdfs:subClassOf rdf:resource="#part"/>
+  <rdfs:subClassOf rdf:resource="#risk"/>
+  <rdfs:subClassOf rdf:resource="#decision"/>
+  <rdfs:subClassOf rdf:resource="#status"/>
+</owl:Class>
+
+<owl:Class rdf:about="#part"/>
+
+<owl:Class rdf:about="#decision"/>
+
+<owl:Class rdf:about="#status"/>
+
+<owl:Class rdf:about="#management_context">
+  <rdfs:subClassOf rdf:resource="#combination"/>
+</owl:Class>
+
+<owl:Class rdf:about="#combination">
+  <rdfs:subClassOf rdf:resource="#rat"/>
+</owl:Class>
+
+<owl:Class rdf:about="#level"/>
+
+<owl:Class rdf:about="#personnel">
+  <rdfs:subClassOf rdf:resource="#participant"/>
+</owl:Class>
+
+<owl:Class rdf:about="#participant"/>
+
+<owl:Class rdf:about="#response">
+  <rdfs:subClassOf rdf:resource="#use"/>
+  <rdfs:subClassOf rdf:resource="#plan"/>
+  <rdfs:subClassOf rdf:resource="#ed"/>
+  <rdfs:subClassOf rdf:resource="#design"/>
+</owl:Class>
+
+<owl:Class rdf:about="#information_gathering_techniques">
+  <rdfs:subClassOf rdf:resource="#identify_risks_tools_and_techniques"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Gathering Techniques Examples of information gathering techniques used in identifying risks can include: Brainstorming. The goal of brainstorming is to obtain a comprehensive list of project risks. The project team usually performs brainstorming, often with a multidisciplinary set of experts who are not part of the team. Ideas about project risk are generated under the leadership of a facilitator, either in a traditional free-form brainstorm session or structured mass interviewing techniques. Categories of risk, such as in a risk breakdown structure, can be used as a framework. Risks are then identified and categorized by type of risk and their definitions are refined. Delphi technique. The Delphi technique is a way to reach a consensus of experts. Project risk experts participate in this technique anonymously. A facilitator uses a questionnaire to solicit ideas about the important project risks. The responses are summarized and are then recirculated to the experts for further comment. Consensus may be reached in a few rounds of this process. The Delphi technique helps reduce bias in the data and keeps any one person from having undue influence on the outcome.325©2013 Project Management Institute. 11 Interviewing. Interviewing experienced project participants, stakeholders, and subject matter experts helps to identify risks. Root cause analysis. Root-cause analysis is a specific technique used to identify a problem, discover the underlying causes that lead to it, and develop preventive action. &amp;P2</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#money"/>
+
+<owl:Class rdf:about="#framework"/>
+
+<owl:Class rdf:about="#risk_register">
+  <rdfs:subClassOf rdf:resource="#use"/>
+  <rdfs:subClassOf rdf:resource="#document"/>
+  <rdfs:subClassOf rdf:resource="#control_risks_inputs"/>
+  <rdfs:subClassOf rdf:resource="#perform_quantitative__risk_analysis_inputs"/>
+  <rdfs:subClassOf rdf:resource="#perform_qualitative__risk_analysis_inputs"/>
+  <rdfs:subClassOf rdf:resource="#identify_risks_outputs"/>
+  <rdfs:subClassOf rdf:resource="#plan_risk_responses_inputs"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Risk Register The primary output from Identify Risks is the initial entry into the risk register. The risk register is a document in which the results of risk analysis and risk response planning are recorded. It contains the outcomes of the other risk management processes as they are conducted, resulting in an increase in the level and type of information contained in the risk register over time. The preparation of the risk register begins in the Identify Risks process with the following information, and then becomes available to other project management and risk management processes: List of identified risks. &amp;P2</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Risk Register Described in Section 11.2.3.1. The risk register contains the information that will be used to assess and prioritize risks. &amp;P3</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Risk Register Described in Section 11.2.3.1. The risk register is used as a reference point for performing quantitative risk analysis. &amp;P4</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Risk Register The risk register refers to identified risks, root causes of risks, lists of potential responses, risk owners, symptoms and warning signs, the relative rating or priority list of project risks, risks requiring responses in the near term, risks for additional analysis and response, trends in qualitative analysis results, and a watch list, which is a list of low-priority risks within the risk register. &amp;P5</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Risk Register The risk register has key inputs that include identified risks and risk owners, agreed-upon risk responses, control actions for assessing the effectiveness of response plans, risk responses, specific implementation actions, symptoms and warning signs of risk, residual and secondary risks, a watch list of low-priority risks, and the time and cost contingency reserves. The watch list is within the risk register and provides a list of low-priority risks.351©2013 Project Management Institute. 11 &amp;P6</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#document"/>
+
+<owl:Class rdf:about="#identify_risks_outputs">
+  <rdfs:subClassOf rdf:resource="#identify_risks"/>
+</owl:Class>
+
+<owl:Class rdf:about="#contract">
+  <rdfs:subClassOf rdf:resource="#use"/>
+</owl:Class>
+
+<owl:Class rdf:about="#guideline">
+  <rdfs:subClassOf rdf:resource="#use"/>
+</owl:Class>
+
+<owl:Class rdf:about="#correspond_expenditure">
+  <rdfs:subClassOf rdf:resource="#track"/>
+</owl:Class>
+
+<owl:Class rdf:about="#track"/>
+
+<owl:Class rdf:about="#project_team_member">
+  <rdfs:subClassOf rdf:resource="#level"/>
+</owl:Class>
+
+<owl:Class rdf:about="#en_agencies"/>
+
+<owl:Class rdf:about="#strategies_for_negative_risks_or_threats">
+  <rdfs:subClassOf rdf:resource="#plan_risk_responses_tools_and_techniques"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strategies for Negative Risks or Threats Three strategies, which typically deal with threats or risks that may have negative impacts on project objectives if they occur, are: avoid, transfer, and mitigate. The fourth strategy, accept, can be used for negative risks or threats as well as positive risks or opportunities. Each of these risk response strategies have varied and unique influence on the risk condition. These strategies should be chosen to match the risk™s probability and impact on the project™s overall objectives. Avoidance and mitigation strategies are usually good strategies for critical risks with high impact, while transference and acceptance are usually good strategies for threats that are less critical and with low overall impact. The four strategies for dealing with negative risks or threats are further described as follows: Avoid. Risk avoidance is a risk response strategy whereby the project team acts to eliminate the threat or protect the project from its impact. It usually involves changing the project management plan to eliminate the threat entirely. The project manager may also isolate the project objectives from the risk™s impact or change the objective that is in jeopardy. Examples of this include extending the schedule, changing the strategy, or reducing scope. The most radical avoidance strategy is to shut down the project entirely. Some risks that arise early in the project can be avoided by clarifying requirements, obtaining information, improving communication, or acquiring expertise. Transfer. Risk transference is a risk response strategy whereby the project team shifts the impact of a threat to a third party, together with ownership of the response. Transferring the risk simply gives another party responsibility for its managementŠit does not eliminate it. Transferring does not mean disowning the risk by transferring it to a later project or another person without his or her knowledge or agreement. Risk transference nearly always involves payment of a risk premium to the party taking on the risk. Transferring liability for risk is most effective in dealing with financial risk exposure. Transference tools can be quite diverse and include, but are not limited to, the use of insurance, performance bonds, warranties, guarantees, etc. Contracts or agreements may be used to transfer liability for specified risks to another party. For example, when a buyer has capabilities that the seller does not possess, it may be prudent to transfer some work and its concurrent risk contractually back to the buyer. In many cases, use of a cost-plus contract may transfer the cost risk to the buyer, while a fixed-price contract may transfer risk to the seller.345©2013 Project Management Institute. 11 Mitigate. Risk mitigation is a risk response strategy whereby the project team acts to reduce the probability of occurrence or impact of a risk. It implies a reduction in the probability and/or impact of an adverse risk to be within acceptable threshold limits. Taking early action to reduce the probability and/or impact of a risk occurring on the project is often more effective than trying to repair the damage after the risk has occurred. Adopting less complex processes, conducting more tests, or choosing a more stable supplier are examples of mitigation actions. Mitigation may require prototype development to reduce the risk of scaling up from a bench-scale model of a process or product. Where it is not possible to reduce probability, a mitigation response might address the risk impact by targeting linkages that determine the severity. For example, designing redundancy into a system may reduce the impact from a failure of the original component. Accept. Risk acceptance is a risk response strategy whereby the project team decides to acknowledge the risk and not take any action unless the risk occurs. This strategy is adopted where it is not possible or cost-effective to address a specific risk in any other way. This strategy indicates that the project team has decided not to change the project management plan to deal with a risk, or is unable to identify any other suitable response strategy. This strategy can be either passive or active. Passive acceptance requires no action except to document the strategy, leaving the project team to deal with the risks as they occur, and to periodically review the threat to ensure that it does not change significantly. The most common active acceptance strategy is to establish a contingency reserve, including amounts of time, money, or resources to handle the risks. &amp;P5</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#project_documents_updates">
+  <rdfs:subClassOf rdf:resource="#perform_quantitative__risk_analysis_outputs"/>
+  <rdfs:subClassOf rdf:resource="#perform_qualitative__risk_analysis_outputs"/>
+  <rdfs:subClassOf rdf:resource="#control_risks_outputs"/>
+  <rdfs:subClassOf rdf:resource="#plan_risk_responses_outputs"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Project Documents Updates Project documents that may be updated include, but are not limited to: Risk register updates. As new information becomes available through the qualitative risk assessment, the risk register is updated. Updates to the risk register may include assessments of probability and impacts for each risk, risk ranking or scores, risk urgency information or risk categorization, and a watch list for low probability risks or risks requiring further analysis. Assumptions log updates. &amp;P3</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Project Documents Updates Project documents are updated with information resulting from quantitative risk analysis. For example, risk register updates could include: Probabilistic analysis of the project. Estimates are made of potential project schedule and cost outcomes listing the possible completion dates and costs with their associated confidence levels. This output, often expressed as a cumulative frequency distribution, is used with stakeholder risk tolerances to permit quantification of the cost and time contingency reserves. &amp;P4</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Project Documents Updates In the Plan Risk Responses process, several project documents are updated as needed. For example, when appropriate risk responses are chosen and agreed upon, they are included in the risk register. The risk register should be written to a level of detail that corresponds with the priority ranking and the planned response. Often, the high and moderate risks are addressed in detail. &amp;P5</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Project Documents Updates Project documents that may be updated as a result of the Control Risk process include, but are not limited to the risk register. Risk register updates may include: Outcomes of risk reassessments, risk audits, and periodic risk reviews. These outcomes may include identification of new risks, updates to probability, impact, priority, response plans, ownership, and other elements of the risk register. Outcomes can also include closing risks that are no longer applicable and releasing their associated reserves. &amp;P6</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#perform_quantitative__risk_analysis_outputs">
+  <rdfs:subClassOf rdf:resource="#perform_quantitative__risk_analysis"/>
+</owl:Class>
+
+<owl:Class rdf:about="#perform_qualitative__risk_analysis_outputs">
+  <rdfs:subClassOf rdf:resource="#perform_qualitative__risk_analysis"/>
+</owl:Class>
+
+<owl:Class rdf:about="#plan_risk_responses_outputs">
+  <rdfs:subClassOf rdf:resource="#plan_risk_responses"/>
+</owl:Class>
+
+<owl:Class rdf:about="#analytical_techniques">
+  <rdfs:subClassOf rdf:resource="#plan_risk_management_tools_and_techniques"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Analytical Techniques Analytical techniques are used to understand and define the overall risk management context of the project. Risk management context is a combination of stakeholder risk attitudes and the strategic risk exposure of a given project based on the overall project context. For example, a stakeholder risk profile analysis may be performed to grade and qualify the project stakeholder risk appetite and tolerance. Other techniques, such as the use of strategic risk scoring sheets, are used to provide a high-level assessment of the risk exposure of the project based on the overall project context. Depending on these assessments, the project team can allocate appropriate resources and focus on the risk management activities. &amp;P1</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#project_objective"/>
+
+<owl:Class rdf:about="#accept">
+  <rdfs:subClassOf rdf:resource="#use"/>
+</owl:Class>
+
+<owl:Class rdf:about="#source">
+  <rdfs:subClassOf rdf:resource="#bias"/>
+</owl:Class>
+
+<owl:Class rdf:about="#benefit">
+  <rdfs:subClassOf rdf:resource="#documentation"/>
+</owl:Class>
+
+<owl:Class rdf:about="#documentation"/>
+
+<owl:Class rdf:about="#term">
+  <rdfs:subClassOf rdf:resource="#use"/>
+</owl:Class>
+
+<owl:Class rdf:about="#management_planning">
+  <rdfs:subClassOf rdf:resource="#process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#audit">
+  <rdfs:subClassOf rdf:resource="#conduct"/>
+</owl:Class>
+
+<owl:Class rdf:about="#conduct"/>
+
+<owl:Class rdf:about="#evaluation">
+  <rdfs:subClassOf rdf:resource="#document"/>
+  <rdfs:subClassOf rdf:resource="#mean"/>
+</owl:Class>
+
+<owl:Class rdf:about="#cause"/>
+
+<owl:Class rdf:about="#category">
+  <rdfs:subClassOf rdf:resource="#use"/>
+</owl:Class>
+
+<owl:Class rdf:about="#cation_technique"/>
+
+<owl:Class rdf:about="#checklist_analysis">
+  <rdfs:subClassOf rdf:resource="#identify_risks_tools_and_techniques"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Checklist Analysis Risk identification checklists are developed based on historical information and knowledge that has been accumulated from previous similar projects and from other sources of information. The lowest level of the R BS can also be used as a risk checklist. While a checklist may be quick and simple, it is impossible to build an exhaustive one, and care should be taken to ensure the checklist is not used to avoid the effort of proper risk identification. The team should also explore items that do not appear on the checklist. Additionally, the checklist should be pruned from time to time to remove or archive related items. The checklist should be reviewed during project closure to incorporate new lessons learned and improve it for use on future projects. &amp;P2</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#interaction_effect">
+  <rdfs:subClassOf rdf:resource="#risk"/>
+</owl:Class>
+
+<owl:Class rdf:about="#assumptions_analysis">
+  <rdfs:subClassOf rdf:resource="#identify_risks_tools_and_techniques"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assumptions Analysis Every project and its plan is conceived and developed based on a set of hypotheses, scenarios, or assumptions. Assumptions analysis explores the validity of assumptions as they apply to the project. It identifies risks to the project from inaccuracy, instability, inconsistency, or incompleteness of assumptions. &amp;P2</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#project_management_plan_updates">
+  <rdfs:subClassOf rdf:resource="#plan_risk_responses_outputs"/>
+  <rdfs:subClassOf rdf:resource="#control_risks_outputs"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Project Management Plan Updates Elements of the project management plan that may be updated as a result of carrying out this process include, but are not limited to:347©2013 Project Management Institute. 11 Schedule management plan. The schedule management plan is updated to reflect changes in process and practice driven by the risk responses. This may include changes in tolerance or behavior related to resource loading and leveling, as well as updates to the schedule strategy. &amp;P5</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Project Management Plan Updates If the approved change requests have an effect on the risk management processes, the corresponding component documents of the project management plan are revised and reissued to reflect the approved changes. The elements of the project management plan that may be updated are the same as those in the Plan Risk Responses process.354©2013 Project Management Institute. &amp;P6</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#disagreement">
+  <rdfs:subClassOf rdf:resource="#address"/>
+</owl:Class>
+
+<owl:Class rdf:about="#value_analysis">
+  <rdfs:subClassOf rdf:resource="#concept"/>
+</owl:Class>
+
+<owl:Class rdf:about="#probability_and_impact_matrix">
+  <rdfs:subClassOf rdf:resource="#perform_qualitative__risk_analysis_tools_and_techniques"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Probability and Impact Matrix Risks can be prioritized for further quantitative analysis and planning risk responses based on their risk rating. Ratings are assigned to risks based on their assessed probability and impact. Evaluation of each risk™s importance and priority for attention is typically conducted using a look-up table or a probability and impact matrix. Such a matrix specifies combinations of probability and impact that lead to rating the risks as low, moderate, or high priority. Descriptive terms or numeric values can be used depending on organizational preference.Each risk is rated on its probability of occurrence and impact on an objective if it does occur. The organization should determine which combinations of probability and impact result in a classification of high risk, moderate risk, and low risk. In a black-and-white matrix, these conditions are denoted using different shades of gray. Specifically in Figure 11-10, the dark gray area (with the largest numbers) represents high risk: the medium gray area (with the smallest numbers) represents low risk, and the light gray area (with in-between numbers) represents moderate risk. Usually, these risk-rating rules are specified by the organization in advance of the project and included in organizational process assets. Risk rating rules can be tailored in the Plan Risk Management process to the specific project.Probability and Impact Matrix Probability0.900.700.500.300.100.050.040.030.020.010.05/Very Low0.090.070.050.030.010.10/Low0.180.140.100.060.020.20/Moderate0.360.280.200.120.040.40/High0.720.560.400.240.080.80/Very High Impact (numerical scale) on an objective  (e.g., cost, time, scope or quality)Each risk is rated on its probability of occurring and impact on an objective if it does occur. The organization's thresholds for low, moderate or high risks are shown in the matrix and determine whether the risk is scored as high, moderate or low for that objective.Threats0.050.040.030.020.010.05/Very Low0.090.070.050.030.010.10/Low0.180.140.100.060.020.20/Moderate0.360.280.200.120.040.40/High0.720.560.400.240.080.80/Very High Opportunities Figure 11-10. Probability and Impact Matrix332©2013 Project Management Institute. As illustrated in Figure 11-10, an organization can rate a risk separately for each objective (e.g., cost, time, and scope). In addition, it may develop ways to determine one overall rating for each risk. Finally, opportunities and threats are handled in the same matrix using definitions of the different levels of impact that are appropriate for each.The risk score helps guide risk responses. For example, risks that have a negative impact on objectives, otherwise known as threats if they occur, and that are in the high-risk (dark gray) zone of the matrix, may require priority action and aggressive response strategies. Threats found in the low-risk (medium gray) zone may not require proactive management action beyond being placed in the risk register as part of the watch list or adding a contingency reserve. Similarly for opportunities, those in the high-risk (dark gray) zone, which may be obtained most easily and offer the greatest benefit, should be targeted first. Opportunities in the low-risk (medium gray) zone should be monitored. &amp;P3</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#procurement_documents">
+  <rdfs:subClassOf rdf:resource="#identify_risks_inputs"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procurement Documents Defined in Section 12.1.3.3. If the project requires external procurement of resources, procurement documents become a key input to the Identify Risks process. The complexity and the level of detail of the procurement documents should be consistent with the value of, and risks associated with, planned procurement. &amp;P2</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#plan_risk_management">
+  <rdfs:subClassOf rdf:resource="#project_risk_management"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plan Risk Management is the process of defining how to conduct risk management activities for a project. The key benefit of this process is it ensures that the degree, type, and visibility of risk management are commensurate with both the risks and the importance of the project to the organization. The risk management plan is vital to communicate with and obtain agreement and support from all stakeholders to ensure the risk management process is supported and performed effectively over the project life cycle. The inputs, tools and techniques, and outputs of this process are depicted in Figure 11-2. Figure 11-3 </rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#technique">
+  <rdfs:subClassOf rdf:resource="#use"/>
+  <rdfs:subClassOf rdf:resource="#way"/>
+</owl:Class>
+
+<owl:Class rdf:about="#representation"/>
+
+<owl:Class rdf:about="#project_document">
+  <rdfs:subClassOf rdf:resource="#update"/>
+</owl:Class>
+
+<owl:Class rdf:about="#schedule_management_plan">
+  <rdfs:subClassOf rdf:resource="#identify_risks_inputs"/>
+  <rdfs:subClassOf rdf:resource="#perform_quantitative__risk_analysis_inputs"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schedule Management Plan Described in Section 6.1.3.1. The schedule management plan provides insight to project time/schedule objectives and expectations which may be impacted by risks (known and unknown). &amp;P2</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schedule Management Plan Described in Section 6.1.3.1. The schedule management plan provides guidelines on establishing and managing risk reserves. &amp;P4</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#meetings">
+  <rdfs:subClassOf rdf:resource="#plan_risk_management_tools_and_techniques"/>
+  <rdfs:subClassOf rdf:resource="#control_risks_tools_and_techniques"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Meetings Project teams hold planning meetings to develop the risk management plan. Attendees at these meetings may include the project manager, selected project team members and stakeholders, anyone in the organization with responsibility to manage the risk planning and execution activities, and others, as needed.High-level plans for conducting the risk management activities are defined in these meetings. Risk management cost elements and schedule activities should be developed for inclusion in the project budget and schedule, respectively. Risk contingency reserve application approaches may be established or reviewed. Risk management responsibilities should be assigned. General organizational templates for risk categories and definitions of terms such as levels of risk, probability by type of risk, impact by type of objectives, and the probability and impact matrix will be tailored to the specific project. If templates for other steps in the process do not exist, they may be generated in these meetings. The outputs of these activities are summarized in the risk management plan. &amp;P1</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Meetings Project risk management should be an agenda item at periodic status meetings. The amount of time required for that item will vary, depending upon the risks that have been identified, their priority, and difficulty of response. The more often risk management is practiced, the easier it becomes. Frequent discussions about risk make it more likely that people will identify risks and opportunities.353©2013 Project Management Institute. 11 &amp;P6</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#possibility">
+  <rdfs:subClassOf rdf:resource="#address"/>
+</owl:Class>
+
+<owl:Class rdf:about="#risk_analysis_tool"/>
+
+<owl:Class rdf:about="#stakeholder_sponsor">
+  <rdfs:subClassOf rdf:resource="#interview"/>
+</owl:Class>
+
+<owl:Class rdf:about="#interview"/>
+
+<owl:Class rdf:about="#display">
+  <rdfs:subClassOf rdf:resource="#tornado_diagram"/>
+</owl:Class>
+
+<owl:Class rdf:about="#tornado_diagram">
+  <rdfs:subClassOf rdf:resource="#type"/>
+</owl:Class>
+
+<owl:Class rdf:about="#transference">
+  <rdfs:subClassOf rdf:resource="#strategy"/>
+</owl:Class>
+
+<owl:Class rdf:about="#support"/>
+
+<owl:Class rdf:about="#swot_analysis">
+  <rdfs:subClassOf rdf:resource="#identify_risks_tools_and_techniques"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swot Analysis This technique examines the project from each of the strengths, weaknesses, opportunities, and threats (Swot) perspectives to increase the breadth of identified risks by including internally generated risks. The technique starts with identification of strengths and weaknesses of the organization, focusing on either the project, organization, or the business area in general. Swot analysis then identifies any opportunities for the project that arise from organizational strengths, and any threats arising from organizational weaknesses. The analysis also examines the degree to which organizational strengths offset threats, as well as identifying opportunities that may serve to overcome weaknesses.327©2013 Project Management Institute. 11 &amp;P2</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#cost_management_plan">
+  <rdfs:subClassOf rdf:resource="#identify_risks_inputs"/>
+  <rdfs:subClassOf rdf:resource="#perform_quantitative__risk_analysis_inputs"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cost Management Plan Described in Section 7.1.3.1. The cost management plan provides processes and controls that can be used to help identify risks across the project. &amp;P2</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cost Management Plan Described in Section 7.1.3.1. The cost management plan provides guidelines on establishing and managing risk reserves. &amp;P4</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#basis"/>
+
+<owl:Class rdf:about="#data_assessment">
+  <rdfs:subClassOf rdf:resource="#base"/>
+</owl:Class>
+
+<owl:Class rdf:about="#base"/>
+
+<owl:Class rdf:about="#time_buffer">
+  <rdfs:subClassOf rdf:resource="#use"/>
+</owl:Class>
+
+<owl:Class rdf:about="#risk_urgency_assessment">
+  <rdfs:subClassOf rdf:resource="#perform_qualitative__risk_analysis_tools_and_techniques"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Risk Urgency Assessment Risks requiring near-term responses may be considered more urgent to address. Indicators of priority may include probability of detecting the risk, time to affect a risk response, symptoms and warning signs, and the risk rating. In some qualitative analyses, the assessment of risk urgency is combined with the risk ranking that is determined from the probability and impact matrix to give a final risk severity rating. &amp;P3</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#buffer">
+  <rdfs:subClassOf rdf:resource="#use"/>
+</owl:Class>
+
+<owl:Class rdf:about="#ed_risk">
+  <rdfs:subClassOf rdf:resource="#assess"/>
+</owl:Class>
+
+<owl:Class rdf:about="#enhance_strategy">
+  <rdfs:subClassOf rdf:resource="#use"/>
+</owl:Class>
+
+<owl:Class rdf:about="#work_performance_reports">
+  <rdfs:subClassOf rdf:resource="#control_risks_inputs"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Work Performance Reports Described in Section 4.4.3.2. Work performance reports take information from performance measurements and analyze it to provide project work performance information including variance analysis, earned value data, and forecasting data. These data points could be impactful in controlling performance related risks. &amp;P6</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#criterion"/>
+
+<owl:Class rdf:about="#success_factor">
+  <rdfs:subClassOf rdf:resource="#list"/>
+  <rdfs:subClassOf rdf:resource="#detail"/>
+</owl:Class>
+
+<owl:Class rdf:about="#track_compliance">
+  <rdfs:subClassOf rdf:resource="#track"/>
+</owl:Class>
+
+<owl:Class rdf:about="#communication">
+  <rdfs:subClassOf rdf:resource="#target"/>
+</owl:Class>
+
+<owl:Class rdf:about="#agreement">
+  <rdfs:subClassOf rdf:resource="#criterion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#distribution">
+  <rdfs:subClassOf rdf:resource="#use"/>
+</owl:Class>
+
+<owl:Class rdf:about="#deviation"/>
+
+<owl:Class rdf:about="#contingent_response_strategies">
+  <rdfs:subClassOf rdf:resource="#plan_risk_responses_tools_and_techniques"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contingent Response Strategies Some responses are designed for use only if certain events occur. For some risks, it is appropriate for the project team to make a response plan that will only be executed under certain predefined conditions, if it is believed that there will be sufficient warning to implement the plan. Events that trigger the contingency response, such as missing intermediate milestones or gaining higher priority with a supplier, should be defined and tracked. Risk responses identified using this technique are often called contingency plans or fallback plans and include identified triggering events that set the plans in effect. &amp;P5</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#perception">
+  <rdfs:subClassOf rdf:resource="#condition"/>
+</owl:Class>
+
+<owl:Class rdf:about="#avoidance">
+  <rdfs:subClassOf rdf:resource="#strategy"/>
+</owl:Class>
+
+<owl:Class rdf:about="#project_risk">
+  <rdfs:subClassOf rdf:resource="#event"/>
+</owl:Class>
+
+<owl:Class rdf:about="#management_activity">
+  <rdfs:subClassOf rdf:resource="#structure"/>
+</owl:Class>
+
+<owl:Class rdf:about="#structure">
+  <rdfs:subClassOf rdf:resource="#base"/>
+</owl:Class>
+
+<owl:Class rdf:about="#human_resource_management_plan">
+  <rdfs:subClassOf rdf:resource="#identify_risks_inputs"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Resource Management Plan Described in Section 9.1.3.1. The human resource management plan provides guidance on how project human resources should be defined, staffed, managed, and eventually released. It can also contain roles and responsibilities, project organization charts, and the staffing management plan, which form a key input to identify risk process. &amp;P2</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#calculation"/>
+
+<owl:Class rdf:about="#bias"/>
+
+<owl:Class rdf:about="#work_performance_information">
+  <rdfs:subClassOf rdf:resource="#control_risks_outputs"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Work Performance Information Work performance information, as a Control Risks output, provides a mechanism to communicate and support project decision making. &amp;P6</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#breakdown_structure">
+  <rdfs:subClassOf rdf:resource="#tailor"/>
+  <rdfs:subClassOf rdf:resource="#framework"/>
+</owl:Class>
+
+<owl:Class rdf:about="#plan_part">
+  <rdfs:subClassOf rdf:resource="#update"/>
+</owl:Class>
+
+<owl:Class rdf:about="#input_tool">
+  <rdfs:subClassOf rdf:resource="#depict"/>
+</owl:Class>
+
+<owl:Class rdf:about="#depict"/>
+
+<owl:Class rdf:about="#deþ_nations_tailor">
+  <rdfs:subClassOf rdf:resource="#use"/>
+</owl:Class>
+
+<owl:Class rdf:about="#product"/>
+
+<owl:Class rdf:about="#documentation_reviews">
+  <rdfs:subClassOf rdf:resource="#identify_risks_tools_and_techniques"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Documentation Reviews A structured review of the project documentation may be performed, including plans, assumptions, previous project files, agreements, and other information. The quality of the plans, as well as consistency between those plans and the project requirements and assumptions, may be indicators of risk in the project. &amp;P2</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#em">
+  <rdfs:subClassOf rdf:resource="#use"/>
+</owl:Class>
+
+<owl:Class rdf:about="#reserve">
+  <rdfs:subClassOf rdf:resource="#track"/>
+</owl:Class>
+
+<owl:Class rdf:about="#frequency">
+  <rdfs:subClassOf rdf:resource="#plan"/>
+</owl:Class>
+
+<owl:Class rdf:about="#organizational_process_assets_updates">
+  <rdfs:subClassOf rdf:resource="#control_risks_outputs"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organizational Process Assets Updates The risk management processes produce information that may be used for future projects, and should be captured in the organizational process assets. The organizational process assets that may be updated include, but are not limited to:Templates for the risk management plan, including the probability and impact matrix and risk register,Risk breakdown structure, and Lessons learned from the project risk management activities.These documents should be updated as needed and at project closure. Final versions of the risk register and the risk management plan templates, checklists, and risk breakdown structure are included &amp;P6</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#effect_chain">
+  <rdfs:subClassOf rdf:resource="#use"/>
+</owl:Class>
+
+<owl:Class rdf:about="#organizational_process_assets">
+  <rdfs:subClassOf rdf:resource="#perform_qualitative__risk_analysis_inputs"/>
+  <rdfs:subClassOf rdf:resource="#perform_quantitative__risk_analysis_inputs"/>
+  <rdfs:subClassOf rdf:resource="#identify_risks_inputs"/>
+  <rdfs:subClassOf rdf:resource="#plan_risk_management_inputs"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Organizational Process Assets Described in Section 2.1.4. The organizational process assets that can influence the Plan Risk Management process include, but are not limited to:315©2013 Project Management Institute. 11 Risk categories,Common definitions of concepts and terms,Risk statement formats,Standard templates,Roles and responsibilities,Authority levels for decision making, and Lessons learned. &amp;P1</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Organizational Process Assets Described in Section 2.1.4. Organizational process assets that can influence the Identify Risks process include, but are not limited to:Project files, including actual data,Organizational and project process controls,Risk statement formats or templates, and Lessons learned. &amp;P2</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Organizational Process Assets Described in Section 2.1.4. The organizational process assets that can influence the Perform Qualitative Risk Analysis process include information on prior, similar completed projects. &amp;P3</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Organizational Process Assets Described in Section 2.1.4. The organizational process assets that can influence the Perform Quantitative Risk Analysis process include information from prior, similar completed projects. &amp;P4</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#d_tree_analysis">
+  <rdfs:subClassOf rdf:resource="#use"/>
+</owl:Class>
+
+<owl:Class rdf:about="#activity_cost_estimates">
+  <rdfs:subClassOf rdf:resource="#identify_risks_inputs"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activity Cost Estimates Described in Section 7.2.3.1. Activity cost estimate reviews are useful in identifying risks as they provide a quantitative assessment of the likely cost to complete scheduled activities and ideally are expressed as a range, with the width of the range indicating the degree(s) of risk. The review may result in projections indicating the estimate is either sufficient or insufficient to complete the activity (i.e., pose a risk to the project). &amp;P2</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#team_approach">
+  <rdfs:subClassOf rdf:resource="#use"/>
+</owl:Class>
+
+<owl:Class rdf:about="#risk_categorization">
+  <rdfs:subClassOf rdf:resource="#perform_qualitative__risk_analysis_tools_and_techniques"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Risk Categorization Risks to the project can be categorized by sources of risk (e.g., using the R BS), the area of the project affected (e.g., using the W BS), or other useful categories (e.g., project phase) to determine the areas of the project most exposed to the effects of uncertainty. Risks can also be categorized by common root causes. This technique helps determine work packages, activities, project phases or even roles in the project, which can lead to the development of effective risk responses.333©2013 Project Management Institute. 11 &amp;P3</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#structure_method">
+  <rdfs:subClassOf rdf:resource="#approach"/>
+</owl:Class>
+
+<owl:Class rdf:about="#risk_relate_feature"/>
+
+<owl:Class rdf:about="#project_management">
+  <rdfs:subClassOf rdf:resource="#process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#output_document">
+  <rdfs:subClassOf rdf:resource="#update"/>
+</owl:Class>
+
+<owl:Class rdf:about="#risk_reassessment">
+  <rdfs:subClassOf rdf:resource="#control_risks_tools_and_techniques"/>
+  <rdfs:subClassOf rdf:resource="#schedule"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Risk Reassessment Control Risks often results in identification of new risks, reassessment of current risks, and the closing of risks that are outdated. Project risk reassessments should be regularly scheduled. The amount and detail of repetition that are appropriate depends on how the project progresses relative to its objectives. &amp;P6</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#schedule"/>
+
+<owl:Class rdf:about="#quality_assessment">
+  <rdfs:subClassOf rdf:resource="#technique"/>
+</owl:Class>
+
+<owl:Class rdf:about="#matrix">
+  <rdfs:subClassOf rdf:resource="#grid"/>
+</owl:Class>
+
+<owl:Class rdf:about="#grid"/>
+
+<owl:Class rdf:about="#risk_data_quality_assessment">
+  <rdfs:subClassOf rdf:resource="#perform_qualitative__risk_analysis_tools_and_techniques"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Risk Data Quality Assessment Risk data quality assessment is a technique to evaluate the degree to which the data about risks is useful for risk management. It involves examining the degree to which the risk is understood and the accuracy, quality, reliability, and integrity of the data about the risk.The use of low-quality risk data may lead to a qualitative risk analysis of little use to the project. If data quality is unacceptable, it may be necessary to gather better data. Often, the collection of information about risks is difficult, and consumes more time and resources than originally planned. The values used in the example in Figure 11-10 are representative. The numbers of steps in the scale are usually established when defining the risk attitude of the organization. &amp;P3</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#project_documents">
+  <rdfs:subClassOf rdf:resource="#identify_risks_inputs"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Project Documents Project documents provide the project team with information about decisions that help better identify project risks. Project documents improve cross-team and stakeholder communications and include, but are not limited to:Project charter,Project schedule,Schedule network diagrams,Issue log,Quality checklist, and Other information proven to be valuable in identifying risks. &amp;P2</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#info_hence_diagram">
+  <rdfs:subClassOf rdf:resource="#representation"/>
+</owl:Class>
+
+<owl:Class rdf:about="#activity"/>
+
+<owl:Class rdf:about="#phase">
+  <rdfs:subClassOf rdf:resource="#start"/>
+</owl:Class>
+
+<owl:Class rdf:about="#start"/>
+
+<owl:Class rdf:about="#project_measure"/>
+
+<owl:Class rdf:about="#impact_effectiveness"/>
+
+<owl:Class rdf:about="#perform_qualitative__risk_analysis">
+  <rdfs:subClassOf rdf:resource="#project_risk_management"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Perform Qualitative Risk Analysis is the process of prioritizing risks for further analysis or action by assessing and combining their probability of occurrence and impact. The key benefit of this process is that it enables project managers to reduce the level of uncertainty and to focus on high-priority risks. The inputs, tools and techniques, and outputs of this process are depicted in Figure 11-8. Figure 11-9 </rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#perform_quantitative__risk_analysis">
+  <rdfs:subClassOf rdf:resource="#project_risk_management"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Perform Quantitative Risk Analysis is the process of numerically analyzing the effect of identified risks on overall project objectives. The key benefit of this process is that it produces quantitative risk information to support decision making in order to reduce project uncertainty. The inputs, tools and techniques, and outputs of this process are depicted in Figure 11-11. Figure 11-12 </rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#control_risks">
+  <rdfs:subClassOf rdf:resource="#project_risk_management"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Control Risks is the process of implementing risk response plans, tracking identified risks, monitoring residual risks, identifying new risks, and evaluating risk process effectiveness throughout the project. The key benefit of this process is that it improves efficiency of the risk approach throughout the project life cycle to continuously optimize risk responses. The inputs, tools and techniques, and outputs of this process are depicted in Figure 11-20. Figure 11-21 </rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#require"/>
+
+<owl:Class rdf:about="#ed_deþ_ne_element"/>
+
+<owl:Class rdf:about="#accord"/>
+
+<owl:Class rdf:about="#regard"/>
+
+<owl:Class rdf:about="#handle"/>
+
+<owl:Class rdf:about="#species_c_event"/>
+
+<owl:Class rdf:about="#outcome_approach"/>
+
+<owl:Class rdf:about="#analyze_document"/>
+
+<owl:Class rdf:about="#assess"/>
+
+<owl:Class rdf:about="#score"/>
+
+<owl:Class rdf:about="#þ"/>
+
+<owl:Class rdf:about="#focus">
+  <rdfs:subClassOf rdf:resource="#place"/>
+</owl:Class>
+
+<owl:Class rdf:about="#assess_accord"/>
+
+<owl:Class rdf:about="#case"/>
+
+<owl:Class rdf:about="#show_example"/>
+
+<owl:Class rdf:about="#use_permit_combination"/>
+
+<owl:Class rdf:about="#method"/>
+
+<owl:Class rdf:about="#application"/>
+
+<owl:Class rdf:about="#design"/>
+
+<owl:Class rdf:about="#identify_risks">
+  <rdfs:subClassOf rdf:resource="#project_risk_management"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identify Risks is the process of determining which risks may affect the project and documenting their characteristics. The key benefit of this process is the documentation of existing risks and the knowledge and ability it provides to the project team to anticipate events. The inputs, tools and techniques, and outputs of this process are depicted in Figure 11-5. Figure 11-6 </rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#detail"/>
+
+<owl:Class rdf:about="#identþ_cation"/>
+
+<owl:Class rdf:about="#share"/>
+
+<owl:Class rdf:about="#store"/>
+
+<owl:Class rdf:about="#report"/>
+
+<owl:Class rdf:about="#target"/>
+
+<owl:Class rdf:about="#shade"/>
+
+<owl:Class rdf:about="#shift_impact"/>
+
+<owl:Class rdf:about="#weight"/>
+
+<owl:Class rdf:about="#indication"/>
+
+<owl:Class rdf:about="#agenda_item"/>
+
+<owl:Class rdf:about="#practice">
+  <rdfs:subClassOf rdf:resource="#tailor"/>
+</owl:Class>
+
+<owl:Class rdf:about="#use_approach"/>
+
+<owl:Class rdf:about="#rat"/>
+
+<owl:Class rdf:about="#technique_use"/>
+
+<owl:Class rdf:about="#percent"/>
+
+<owl:Class rdf:about="#undertaking_base"/>
+
+<owl:Class rdf:about="#plan_risk_responses">
+  <rdfs:subClassOf rdf:resource="#project_risk_management"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plan Risk Responses is the process of developing options and actions to enhance opportunities and to reduce threats to project objectives. The key benefit of this process is that it addresses the risks by their priority, inserting resources and activities into the budget, schedule and project management plan as needed. The inputs, tools and techniques, and outputs of this process are depicted in Figure 11-18. Figure 11-19 </rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#consideredprovides"/>
+
+<owl:Class rdf:about="#response_process"/>
+
+<owl:Class rdf:about="#summarize"/>
+
+<owl:Class rdf:about="#delegate"/>
+
+<owl:Class rdf:about="#concept"/>
+
+<owl:Class rdf:about="#call_threat"/>
+
+<owl:Class rdf:about="#way"/>
+
+<date rdf:about="#date_today">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</date>
+
+<cardinal rdf:about="#cardinal_two">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</cardinal>
+
+<objective rdf:about="#objective_schedule">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</objective>
+
+<gpe rdf:about="#gpe_uk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</gpe>
+
+<cardinal rdf:about="#cardinal_three">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</cardinal>
+
+<gpe rdf:about="#gpe_kumar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</gpe>
+
+<ed rdf:about="#ed_outcome">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <es_include>closing risk</es_include>
+  <es_include>identification</es_include>
+</ed>
+
+<factor rdf:about="#factor_time_frame">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</factor>
+
+<estimate rdf:about="#estimate_value">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</estimate>
+
+<gpe rdf:about="#gpe_switzerland">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</gpe>
+
+<norp rdf:about="#norp_d.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</norp>
+
+<norp rdf:about="#norp_pmpadrian">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</norp>
+
+<cardinal rdf:about="#cardinal_six">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</cardinal>
+
+<project_result rdf:about="#project_result_cost">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</project_result>
+
+<use rdf:about="#use_level">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <us_take>project</us_take>
+</use>
+
+<loc rdf:about="#loc_joslinkrishna_kallapur_pmprita">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</loc>
+
+<gpe rdf:about="#gpe_po">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</gpe>
+
+<ordinal rdf:about="#ordinal_fourth">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</ordinal>
+
+<cardinal rdf:about="#cardinal_more_than_one">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</cardinal>
+
+<date rdf:about="#date_march">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</date>
+
+<strategy rdf:about="#strategy_alteration">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</strategy>
+
+<norp rdf:about="#norp_japanese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</norp>
+
+<cardinal rdf:about="#cardinal_¨">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</cardinal>
+
+<input rdf:about="#input_probability_distribution">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_represent>uncertainty</is_represent>
+</input>
+
+<money rdf:about="#money_katz">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</money>
+
+<gpe rdf:about="#gpe_america">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</gpe>
+
+<date rdf:about="#date_april">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</date>
+
+<en_agencies rdf:about="#en_agencies_address">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <es_combine>response address threat</es_combine>
+</en_agencies>
+
+<factor rdf:about="#factor_urgency">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</factor>
+
+<project_objective rdf:about="#project_objective_scope_schedule_cost">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</project_objective>
+
+<cardinal rdf:about="#cardinal_four">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</cardinal>
+
+<list rdf:about="#list_use">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ls_ensure>clarity</ls_ensure>
+</list>
+
+<source rdf:about="#source_handbook">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</source>
+
+<cation_technique rdf:about="#cation_technique_brainstorming">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</cation_technique>
+
+<norp rdf:about="#norp_santogiovanni">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</norp>
+
+<gpe rdf:about="#gpe_tramontana">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</gpe>
+
+<gpe rdf:about="#gpe_geneva">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</gpe>
+
+<risk_analysis_tool rdf:about="#risk_analysis_tool_decision_tree_analysis">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</risk_analysis_tool>
+
+<risk rdf:about="#risk_culture_attitude">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</risk>
+
+<norp rdf:about="#norp_pmprivalino">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</norp>
+
+<cardinal rdf:about="#cardinal_million">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</cardinal>
+
+<value rdf:about="#value_duration">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</value>
+
+<cardinal rdf:about="#cardinal_quarter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</cardinal>
+
+<project rdf:about="#project_line_item_cost">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</project>
+
+<date rdf:about="#date_winter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</date>
+
+<gpe rdf:about="#gpe_new_zealand">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</gpe>
+
+<gpe rdf:about="#gpe_ccpm">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</gpe>
+
+<norp rdf:about="#norp_responsescan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</norp>
+
+<deviation rdf:about="#deviation_demonstrate">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</deviation>
+
+<norp rdf:about="#norp_north_american">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</norp>
+
+<gpe rdf:about="#gpe_london">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</gpe>
+
+<cardinal rdf:about="#cardinal_twenty_eight">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</cardinal>
+
+<gpe rdf:about="#gpe_ow">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</gpe>
+
+<gpe rdf:about="#gpe_piscataway">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</gpe>
+
+<cardinal rdf:about="#cardinal_one">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</cardinal>
+
+<product rdf:about="#product_pmpkristian_hurtpatricia">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</product>
+
+<technique rdf:about="#technique_variance">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</technique>
+
+<date rdf:about="#date_daily">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</date>
+
+<date rdf:about="#date_day">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</date>
+
+<effect rdf:about="#effect_correlation">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</effect>
+
+<gpe rdf:about="#gpe_hinton">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</gpe>
+
+<ordinal rdf:about="#ordinal_secondary">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</ordinal>
+
+<event rdf:about="#event_cause">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <es_include>requirement</es_include>
+</event>
+
+<ordinal rdf:about="#ordinal_third">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</ordinal>
+
+
+</rdf:RDF>

@@ -1,0 +1,61 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="3">
+            <item index="0" class="java.lang.String" itemvalue="pymongo" />
+            <item index="1" class="java.lang.String" itemvalue="pdfplumber" />
+            <item index="2" class="java.lang.String" itemvalue="streamlit" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W605" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="main.streamlit_option_menu" />
+          <option value="app.pages.signup.data_base" />
+          <option value="app.pages.company.processing_resume" />
+          <option value="app.pages.company.data_base" />
+          <option value="app.pages.company.visualization" />
+          <option value="app.pages.company.st" />
+          <option value="app.pages.login.data_base" />
+          <option value="app.pages.login.main" />
+          <option value="app.pages.job.processing_resume" />
+          <option value="app.pages.job.data_base" />
+          <option value="app.pages.job.visualization" />
+          <option value="app.pages.Recruteur.processing_resume" />
+          <option value="app.pages.Recruteur.data_base" />
+          <option value="app.pages.Recruteur.get_cover_resume_summary" />
+          <option value="app.pages.Recruteur.summary_job_desc" />
+          <option value="app.pages.Recruteur.st" />
+          <option value="app.pages.Recruteur.send_test" />
+          <option value="app.pages.Recruteur.util" />
+          <option value="app.pages.Recruteur.SentenceTransformer" />
+          <option value="app.pages.signup.main" />
+          <option value="app.pages.Recruteur.covers_recommender" />
+          <option value="app.pages.Recruteur.df" />
+          <option value="app.pages.Recruteur.job_desc_similarity" />
+          <option value="dash_bootstrap_components" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
